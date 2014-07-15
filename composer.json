@@ -1,0 +1,33 @@
+{
+    "name": "andytruong/yaml",
+    "type": "library",
+    "description": "Wrapper for various YAML parser/dumper",
+    "keywords": ["api", "render"],
+    "homepage": "https://github.com/andytruong/common",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Truong"
+            , "email": "thehongtt@gmail.com"
+            , "homepage": "http://v3k.net/"
+            , "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.8"
+    },
+    "suggest": {
+        "mustangostang/spyc": "0.5.*"
+        , "symfony/event-dispatcher": "~2.5.0"
+        , "symfony/yaml": "~2.5.0"
+    },
+    "require-dev": {
+        "mustangostang/spyc": "~0.5.0"
+        , "symfony/yaml": "~2.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndyTruong\\Yaml\\": "src/"
+        }
+    }
+}
