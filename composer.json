@@ -2,7 +2,7 @@
     "name": "andytruong/yaml",
     "type": "library",
     "description": "Wrapper for various YAML parser/dumper",
-    "keywords": ["api", "render"],
+    "keywords": ["wrapper", "api", "yaml", "format"],
     "homepage": "https://github.com/andytruong/common",
     "license": "MIT",
     "authors": [
