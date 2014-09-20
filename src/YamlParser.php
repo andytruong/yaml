@@ -38,13 +38,13 @@ class YamlParser
      */
     public function detectRealParser()
     {
-        if (function_exists('yaml_parse')) {
+        if (extension_loaded('yaml')) {
             return new PHPExtensionParser();
         }
-        elseif (function_exists('spyc_load')) {
+        if (function_exists('spyc_load')) {
             return new SpycParser();
         }
-        elseif (class_exists('Symfony\\Component\\Yaml\\Parser')) {
+        if (class_exists('Symfony\\Component\\Yaml\\Parser')) {
             return new SymfomyYamlParser();
         }
         throw new RuntimeException('No YAML parser found. You need install symfony/yaml library or PHP yaml extension, or mustangostang/spyc library.');
