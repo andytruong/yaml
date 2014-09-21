@@ -19,7 +19,7 @@
     "suggest": {
         "mustangostang/spyc": "0.5.*"
         , "symfony/event-dispatcher": "~2.5.0"
-        , "symfony/yaml": "~2.5.0",
+        , "symfony/yaml": "~2.5.0"
         , "andytruong/phpfns": "Provide two wrapper functions: yaml_parse() and yaml_emit()."
     },
     "require-dev": {
