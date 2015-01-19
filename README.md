@@ -1,4 +1,4 @@
-YAML [![Build Status](https://api.travis-ci.org/andytruong/yaml.svg?branch=v0.1)](https://travis-ci.org/andytruong/yaml) [![Latest Stable Version](https://poser.pugx.org/andytruong/yaml/v/stable.png)](https://packagist.org/packages/andytruong/yaml) [![Dependency Status](https://www.versioneye.com/php/andytruong:yaml/2.3.0/badge.svg)](https://www.versioneye.com/php/andytruong:yaml/2.3.0) [![License](https://poser.pugx.org/andytruong/yaml/license.png)](https://packagist.org/packages/andytruong/yaml)
+YAML [![Build Status](https://api.travis-ci.org/atphp/yaml.svg?branch=v0.1)](https://travis-ci.org/atphp/yaml) [![Latest Stable Version](https://poser.pugx.org/atphp/yaml/v/stable.png)](https://packagist.org/packages/atphp/yaml) [![Dependency Status](https://www.versioneye.com/php/atphp:yaml/0.1/badge.svg)](https://www.versioneye.com/php/atphp:yaml/0.1) [![License](https://poser.pugx.org/atphp/yaml/license.png)](https://packagist.org/packages/atphp/yaml)
 ======
 
 Simple wrapper for YAML extension, SpyC, Symfony YAML parser/dumper.
